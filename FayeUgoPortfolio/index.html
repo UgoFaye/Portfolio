@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <!---------------------------Fonts used in this App------------------------------------------------------>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-----------------------------JS text.js extension ---------------------------------------------->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+      integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--------------------------------Style Files ------------------------------------------>
+    <link
+      rel="stylesheet"
+      href="./Assets/CSS/bootstrap.min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./Assets/CSS/all.min.css" type="text/css" />
+    <link rel="stylesheet" href="./Assets/CSS/style.css" type="text/css" />
+
+    <!------------------------------WebSite Title ------------------------------------------>
+
+    <title>DevFolio - Bootstrap Template</title>
+
+    <!-------------------------------Browser logo------------------------------------------->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
+    />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar-scrollSpy">
+    <!-- navbar -->
+
+    <nav id="navbar-scrollSpy"
+      class="navbar navbar-expand-md navbar-dark bg-dark my-auto p-2 fixed-top"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold fs-1 fs-md-2" href="/index.html"
+          >DevFolio</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-md-auto ms-lg-auto me-lg-0 text-uppercase">
+            <li class="nav-item position-relative">
+              <a
+                class="nav-link active fs-5 pe-md-4 pe-lg-5 ps-0"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item position-relative">
+              <a class="nav-link fs-5 pe-md-4 pe-lg-5 ps-0" href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item position-relative">
+              <a class="nav-link fs-5 pe-md-4 pe-lg-5 ps-0" href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item position-relative">
+              <a class="nav-link fs-5 pe-md-4 pe-lg-5 ps-0" href="#portfolio"
+                >Work</a
+              >
+            </li>
+            <li class="nav-item position-relative">
+              <a class="nav-link fs-5 pe-md-4 pe-lg-5 ps-0" href="#blog"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item position-relative">
+              <a class="nav-link fs-5 ps-0" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <header id="home">
+      <div class="home__container">
+        <div class="home__bgLayer">
+          <div
+            class="home__caption d-flex flex-column justify-content-center align-items-center h-100"
+          >
+            <h1 class="home__title pb-4">Je suis Ugo Faye</h1>
+            <p class="home__desc"></p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- about -->
+    <section id="about" class="">
+      <div class="about__container container d-flex px-md-5 py-5">
+        <div class="row">
+          <div class="col-md-6 px-3">
+            <div class="row d-sm-flex">
+              <div class="col-md-3 w-50">
+                <div class="about__img">
+                  <img
+                    class="aboutInfo__img"
+                    src="./Assets/img/blank.png"
+                    alt="about me image "
+                  />
+                </div>
+              </div>
+              <div class="col-md-3 aboutD__list">
+                <div>
+                  <p class="item__list mb-3"><b>Nom:</b> Faye Ugo</p>
+                  <p class="item__list mb-3">
+                    <b>Profil:</b> Etudiant en BTS SIO
+                  </p>
+                  <p class="item__list mb-3">
+                    <b>Email:</b> faye.ugo77@gmail.com
+                  </p>
+                  <p class="item__list mb-3"><b>Telephone:</b> 0695451577</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__container">
+              <p class="aboutTitle__sub mb-3"><b>Competences</b></p>
+              <p class="progress__data m-0">
+                HTML <span class="progress__pers float-end">60%</span>
+              </p>
+              <div class="progress mb-3 mt-1">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 60%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <p class="progress__data m-0">
+                CSS <span class="progress__pers float-end">50%</span>
+              </p>
+              <div class="progress mb-3 mt-1">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 50%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <p class="progress__data m-0">
+                PHP<span class="progress__pers float-end">35%</span>
+              </p>
+              <div class="progress mb-3 mt-1">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 35%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <p class="progress__data m-0">
+                KOTLIN<span class="progress__pers float-end">70%</span>
+              </p>
+              <div class="progress mb-3 mt-1">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 70%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-11 mx-auto col-md-6 pt-4 pt-md-0 about__data">
+            <h5 class="linedTitle__sub mb-4">A propos de moi</h5>
+            <p class="about__desc mb-3">
+              Passionne par l'Informatique depuis toujours,
+              J'ai suivi un cursus scientifique au lycee avec les specialites
+              Mathematiques et Sciences de l'Ingenieur.
+            </p>
+            <p class="about__desc mb-3">
+              N'ayant pas ete accepte dans ma formation initiale sur Parcoursup,
+              j'ai suivi durant un an une Licence en Langues Etrangeres appliquees,
+              mais celle-ci ne me plaisant pas je me suis reinscrit sur la plateforme
+            </p>
+
+            <p class="about__desc mb-3">
+              Ayant ete accepte en BTS SIO, j'ai choisi l'option SLAM (orientee programmation et developpement) car
+              celle-ci me convenait le mieux par rapport a mes attentes et mes competences,
+              ainsi que pour mon choix d'orientation
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="pb-5">
+      <h3 class="services__title mb-2 text-center">Le BTS SIO</h3>
+      <p class="services__sub mb-3 text-center">
+        Qu'est-ce que l'option SLAM ?
+      </p>
+      <div class="services__line"></div>
+      <div class="services__container container mb-5 mx-auto text-center">
+        <div class="row">
+          <div class="col-10 mx-auto col-md-4 mt-5">
+            <div
+              class="mx-auto services__column d-flex flex-column justify-content-center align-content-center mb-5"
+            >
+              <div
+                class="mb-3 mx-auto service__icon d-flex justify-content-center align-items-center"
+              >
+                <i class="fa-solid fa-display px-2 py-2"></i>
+              </div>
+              <h2 class="service__title mb-2 text-uppercase">Web design</h2>
+              <div class="service__desc mb-3">
+                Le SLAM permet en petite partie de faire du web design avec CSS ou encore JavaScript
+              </div>
+            </div>
+          </div>
+          <div class="col-10 mx-auto col-md-4 mt-5">
+            <div
+              class="mx-auto services__column d-flex flex-column justify-content-center align-content-center mb-5"
+            >
+              <div
+                class="mb-3 mx-auto service__icon d-flex justify-content-center align-items-center"
+              >
+                <i class="fa-solid fa-code px-2 py-2"></i>
+              </div>
+              <h2 class="service__title mb-2 text-uppercase">
+                Web development
+              </h2>
+              <div class="service__desc mb-3">
+                L'apprentissage du web developpement est un atout important renforce par la formation, notamment grace a HTML 5
+              </div>
+            </div>
+          </div>
+          <div class="col-10 mx-auto col-md-4 mt-5">
+            <div
+              class="mx-auto services__column d-flex flex-column justify-content-center align-content-center mb-5"
+            >
+              <div
+                class="mb-3 mx-auto service__icon d-flex justify-content-center align-items-center"
+              >
+                <i class="fa-solid fa-camera px-2 py-2"></i>
+              </div>
+              <h2 class="service__title mb-2 text-uppercase">Developpement</h2>
+              <div class="service__desc mb-3">
+                Le developpement et la programmation sont au coeur de la formation avec du Python, du Kotlin ou encore du PHP
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <h3 class="services__title mb-2 text-center">Projets</h3>
+      <p class="services__sub mb-3 text-center">
+        les projets realises cette annee
+      </p>
+      <div class="services__line"></div>
+      <div class="portfolio__container container mx-auto py-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <div class="zoomify">
+                <img
+                  src="./Assets/img/logoatelp.jpeg"
+                  class="card-img-top"
+                  alt="work-1 image"
+                />
+              </div>
+
+              <div class="card-body">
+                <div class="card__data mt-3 mb-1">
+                  <div class="row row-cols-2">
+                    <div class="col w-75">
+                      <h5 class="card-title">Projet ACF2L</h5>
+                      <p class="card-text">
+                        <span class="text-capitalize text-primary"
+                          >web development</span
+                        >
+                        / 2024
+                      </p>
+                    </div>
+                    <div class="col w-25 align-self-center justify-content-end">
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary modal__btn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#work1"
+                      >
+                        <i class="fa-solid fa-plus fa-md"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="zoomify">
+                <img
+                  src="./Assets/img/world-logo.png"
+                  class="card-img-top"
+                  alt="work-2 image"
+                />
+              </div>
+
+              <div class="card-body">
+                <div class="card__data mt-3 mb-1">
+                  <div class="row row-cols-2">
+                    <div class="col w-75">
+                      <h5 class="card-title">Projet Geoworld</h5>
+                      <p class="card-text">
+                        <span class="text-capitalize text-primary"
+                          >web development</span
+                        >
+                        / 2024
+                      </p>
+                    </div>
+                    <div class="col w-25 align-self-center justify-content-end">
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary modal__btn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#work2"
+                      >
+                        <i class="fa-solid fa-plus fa-md"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal itself -->
+
+    <!-- Modal-1 -->
+    <div
+      class="modal fade"
+      id="work1"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header p-1">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-1">
+            <img
+              src="./Assets/img/logoatelp.jpeg"
+              class="modal__img w-100"
+              alt="work-1 image"
+            />
+          </div>
+          <div class="modal-footer p-0">
+            <p class="text-muted">Image 1 of 6</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-2 -->
+    <div
+      class="modal fade"
+      id="work2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header p-1">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-1">
+            <img
+              src="./Assets/img/world-logo.png"
+              class="modal__img w-100"
+              alt="work-2 image"
+            />
+          </div>
+          <div class="modal-footer p-0">
+            <p class="text-muted">Image 2 of 6</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-3 -->
+    <div
+      class="modal fade"
+      id="work3"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header p-1">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-1">
+            <img
+              src="./Assets/img/work-3.jpg"
+              class="modal__img w-100"
+              alt="work-3 image"
+            />
+          </div>
+          <div class="modal-footer p-0">
+            <p class="text-muted">Image 3 of 6</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-4 -->
+    <div
+      class="modal fade"
+      id="work4"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header p-1">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-1">
+            <img
+              src="./Assets/img/work-4.jpg"
+              class="modal__img w-100"
+              alt="work-4 image"
+            />
+          </div>
+          <div class="modal-footer p-0">
+            <p class="text-muted">Image 4 of 6</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-5 -->
+    <div
+      class="modal fade"
+      id="work5"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header p-1">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-1">
+            <img
+              src="./Assets/img/work-5.jpg"
+              class="modal__img w-100"
+              alt="work-5 image"
+            />
+          </div>
+          <div class="modal-footer p-0">
+            <p class="text-muted">Image 5 of 6</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-6 -->
+    <div
+      class="modal fade"
+      id="work6"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header p-1">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-1">
+            <img
+              src="./Assets/img/work-6.jpg"
+              class="modal__img w-100"
+              alt="work-6 image"
+            />
+          </div>
+          <div class="modal-footer p-0">
+            <p class="text-muted">Image 6 of 6</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ** -->
+<!-- Contact -->
+    <section id="contact">
+      <div class="contactBG__layer">
+        <div
+          class="contact h-100 d-flex flex-column align-items-center justify-content-center"
+        >
+          <div class="contact__container container d-flex p-sm-5 py-5">
+            <div class="row">
+              <div class="contact__form col-md-6 mx-auto px-md-3">
+                <form action="" method="GET">
+                  <h5 class="linedTitle__sub mb-4">Send Message Us</h5>
+                  <input
+                    name="name"
+                    type="text"
+                    class="form__input mb-3 my-3"
+                    required=""
+                    placeholder="Your Name"
+                  />
+                  <input
+                    name="email"
+                    type="email"
+                    class="form__input mb-3 my-3"
+                    required=""
+                    placeholder="Your Email"
+                  />
+                  <input
+                    name="subject"
+                    type="text"
+                    class="form__input mb-3 my-3"
+                    required=""
+                    placeholder="Subject"
+                  />
+                  <div class="text__container">
+                    <textarea
+                      name="text_msg"
+                      class="form__input my-3"
+                      rows="5"
+                      required=""
+                      placeholder="Message"
+                    ></textarea>
+                  </div>
+                  <a href="mailto:abc@example.com" class="form__button mb-5"
+                    >Send Message</a
+                  >
+                </form>
+              </div>
+
+              <div class="contact__address col-md-6 mx-auto px-md-3">
+                <h5 class="linedTitle__sub mb-4">Get in Touch</h5>
+                <p class="address__text mb-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facilis dolorum dolorem soluta quidem expedita aperiam aliquid
+                  at. Totam magni ipsum suscipit amet? Autem nemo esse
+                  laboriosam ratione nobis mollitia inventore?
+                </p>
+                <ul class="address__info p-0">
+                  <li>
+                    <span class="address__icon pe-2"
+                      ><i class="fa-solid fa-location-dot"></i></span
+                    >329 WASHINGTON ST BOSTON, MA 02108
+                  </li>
+                  <li>
+                    <span class="address__icon pe-2"
+                      ><i class="fa-solid fa-phone"></i
+                    ></span>
+                    (617) 557-0089
+                  </li>
+                  <li>
+                    <span class="address__icon pe-2"
+                      ><i class="fa-solid fa-envelope"></i></span
+                    >contact@example.com
+                  </li>
+                </ul>
+                <div class="py-4">
+                  <a href="#" target="_blank" class="social__icon me-2">
+                    <i class="fa-brands fa-facebook-f fa-xl px-2 py-2"></i
+                  ></a>
+                  <a href="#" target="_blank" class="social__icon me-2">
+                    <i class="fa-brands fa-twitter fa-xl px-2 py-2"></i
+                  ></a>
+                  <a href="#" target="_blank" class="social__icon me-2">
+                    <i class="fa-brands fa-instagram fa-xl px-2 py-2"></i
+                  ></a>
+                  <a href="#" target="_blank" class="social__icon me-2">
+                    <i class="fa-brands fa-pinterest fa-xl px-2 py-2"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- footer -->
+
+          <p class="footer__copyright mt-5 mb-1">
+            © Copyright <b>DevFolio</b>. All Rights Reserved
+          </p>
+          <p class="footer__credits">Designed by BootstrapMade</p>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- JS text.js extension script ----------------------->
+    <script>
+      var typing = new Typed(".home__desc", {
+        strings: [
+          "ETUDIANT",
+          "BTS SIO",
+          "LYCEE LEONARD DE VINCI"
+        ],
+        typeSpeed: 100,
+        backSpeed: 40,
+        loop: true,
+      });
+    </script>
+
+    <script src="./Assets/JS/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
